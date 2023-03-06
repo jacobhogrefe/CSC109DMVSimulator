@@ -19,7 +19,7 @@ public class DMVSimulator {
         if (miracleNumber == 69) {
             System.out.println("You have the correct paperwork. Congrats.");
         } else {
-            System.out.println("You don't have the correct paperwork! You stupid, uneducated, little piece of garbage.");
+            System.out.println("You don't have the correct paperwork! You stupid, uneducated, little piece of garbage. MUAHAHAHA");
         }
     }
 }
