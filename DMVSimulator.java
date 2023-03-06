@@ -15,6 +15,11 @@ public class DMVSimulator {
             currentNumber++;
         }
         System.out.println("Serving number " + userNumber + ".");
-        System.out.println("You don't have the correct paperwork! You stupid, uneducated, little piece of garbage. MUAHAHAHA");
+        int miracleNumber = rand.ints(1, 1, 100).findFirst().getAsInt();
+        if (miracleNumber == 69) {
+            System.out.println("You have the correct paperwork. Congrats.");
+        } else {
+            System.out.println("You don't have the correct paperwork! You stupid, uneducated, little piece of garbage. MUAHAHAHA");
+        }
     }
 }
