@@ -15,6 +15,6 @@ public class DMVSimulator {
             currentNumber++;
         }
         System.out.println("Serving number " + userNumber + ".");
-        System.out.println("Sorry, you don't have the proper paperwork.");
+        System.out.println("You don't have the correct paperwork! You stupid, uneducated, little piece of garbage.");
     }
 }
